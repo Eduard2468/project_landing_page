@@ -51,7 +51,7 @@ h2 {
     font-size: 48px;
 }
 
-button {
+.one button {
 max-width: fit-content;
 background-color: #3882f6;
 padding: 5px;
@@ -98,4 +98,33 @@ h3 {
 .two p {
     text-align: center;
     max-width: fit-content;
+}
+
+.par {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.parpar {
+    text-align: end;
+    font-weight: 900;
+    
+}
+
+.four{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+.four button {
+    background-color: #3882f6;
+    border: 2px solid white ;
+    border-radius: 8%;
 }
